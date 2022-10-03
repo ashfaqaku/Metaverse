@@ -1,15 +1,12 @@
 
-var personName="hello eric\n";
+var h = "hello";
 
-document.write(personName.toLowerCase());
+document(h);
+$(document).ready(function(){
+   $('#hr').click(function(){
+          var foo = "<hr/>";
+          $('#sample').after(foo);        
+       });
+   });​
 
-document.write(personName.toUpperCase());
-function titleCase(string) {
-    var sentence = string.toLowerCase().split(" ");
-    for(var i = 0; i< sentence.length; i++){
-       sentence[i] = sentence[i][0].toUpperCase() + sentence[i].slice(1);
-    }
- document.write(sentence.join(" "));
- return sentence;
- }
- titleCase(personName);
+   console.log(h);
