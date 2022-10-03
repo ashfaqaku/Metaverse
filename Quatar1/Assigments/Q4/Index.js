@@ -1,15 +1,3 @@
+var famous_quote="Jodi Picoult, “You can always edit a bad page. You can’t edit a blank page”";
 
-var personName="hello eric\n";
-
-document.write(personName.toLowerCase());
-
-document.write(personName.toUpperCase());
-function titleCase(string) {
-    var sentence = string.toLowerCase().split(" ");
-    for(var i = 0; i< sentence.length; i++){
-       sentence[i] = sentence[i][0].toUpperCase() + sentence[i].slice(1);
-    }
- document.write(sentence.join(" "));
- return sentence;
- }
- titleCase(personName);
+document.write(famous_quote);
