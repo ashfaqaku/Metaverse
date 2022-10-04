@@ -1,4 +1,16 @@
+var alienColor = ["green","yellow","red"];
 
-var personName="Hello Eric";
-var message = ", Would you like to learn some Python today?";
-document.write(personName + message);
+
+if (alienColor[1] = "green"){
+    console.log("the player just earned 5 points for shooting the alien");
+
+}    
+if (alienColor[1] =! "green"){
+    console.log("the player just earned 10 points");
+}
+
+if (alienColor[1] =! "green"){
+    console.log("the player just earned 10 points");
+}else{
+    console.log("the player just earned 0 points");
+}
