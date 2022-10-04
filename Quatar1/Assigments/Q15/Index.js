@@ -1,15 +1,11 @@
 
-var personName="hello eric\n";
 
-document.write(personName.toLowerCase());
-
-document.write(personName.toUpperCase());
-function titleCase(string) {
-    var sentence = string.toLowerCase().split(" ");
-    for(var i = 0; i< sentence.length; i++){
-       sentence[i] = sentence[i][0].toUpperCase() + sentence[i].slice(1);
-    }
- document.write(sentence.join(" "));
- return sentence;
- }
- titleCase(personName);
+var guest_name=["anwer","akbar","ali"];
+console.log('Hello!  '+guest_name[0]+ ', I would like to invite you on Saturday for dinner. ');
+console.log('Hello!  '+guest_name[1]+ ', I would like to invite you on Saturday for dinner. ');
+console.log('Hello!  '+guest_name[2]+ ', I would like to invite you on Saturday for dinner. ');
+console.log(guest_name[1]+ ',  has apologised to attend the dinner. ');
+guest_name[1]='ashraf';
+console.log('Hello!  '+guest_name[0]+ ', I would like to invite you on Saturday for dinner. ');
+console.log('Hello!  '+guest_name[1]+ ', I would like to invite you on Saturday for dinner. ');
+console.log('Hello!  '+guest_name[2]+ ', I would like to invite you on Saturday for dinner. ');

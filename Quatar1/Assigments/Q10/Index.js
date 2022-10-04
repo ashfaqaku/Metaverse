@@ -2,6 +2,7 @@
 var personName="hello eric\n";
 
 document.write(personName.toLowerCase());
+//Comments this program to change string in upper case or lower case or title case.
 
 document.write(personName.toUpperCase());
 function titleCase(string) {
@@ -13,3 +14,9 @@ function titleCase(string) {
  return sentence;
  }
  titleCase(personName);
+
+//commets this program is just concotinate string to string...
+ 
+var personName="Hello Eric";
+var message = ", Would you like to learn some Python today?";
+document.write(personName + message);

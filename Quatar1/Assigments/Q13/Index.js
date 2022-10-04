@@ -1,15 +1,3 @@
-
-var personName="hello eric\n";
-
-document.write(personName.toLowerCase());
-
-document.write(personName.toUpperCase());
-function titleCase(string) {
-    var sentence = string.toLowerCase().split(" ");
-    for(var i = 0; i< sentence.length; i++){
-       sentence[i] = sentence[i][0].toUpperCase() + sentence[i].slice(1);
-    }
- document.write(sentence.join(" "));
- return sentence;
- }
- titleCase(personName);
+var mode_of_transportation=["car","bike","cycle"];
+console.log('u like to drive ' + mode_of_transportation[0]);
+ 

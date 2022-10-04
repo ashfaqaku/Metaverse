@@ -1,15 +1,10 @@
 
-var personName="hello eric\n";
 
-document.write(personName.toLowerCase());
+var persons_name=["anwer","asif","ashfaq","Sohail","kashif"];
 
-document.write(personName.toUpperCase());
-function titleCase(string) {
-    var sentence = string.toLowerCase().split(" ");
-    for(var i = 0; i< sentence.length; i++){
-       sentence[i] = sentence[i][0].toUpperCase() + sentence[i].slice(1);
-    }
- document.write(sentence.join(" "));
- return sentence;
- }
- titleCase(personName);
+console.log(persons_name[0]);
+console.log(persons_name[1]);
+console.log(persons_name[2]);
+console.log(persons_name[3]);
+console.log(persons_name[4]);
+ 
