@@ -1,15 +1,8 @@
+var mountain=["Nanga Parbat"];
+var rivers = ["\tJhelum"];
+var countries = ["\tpakistan"];
+var cities = ["\tkarachi"];
+var language = ["\turdu"];
 
-var personName="hello eric\n";
-
-document.write(personName.toLowerCase());
-
-document.write(personName.toUpperCase());
-function titleCase(string) {
-    var sentence = string.toLowerCase().split(" ");
-    for(var i = 0; i< sentence.length; i++){
-       sentence[i] = sentence[i][0].toUpperCase() + sentence[i].slice(1);
-    }
- document.write(sentence.join(" "));
- return sentence;
- }
- titleCase(personName);
+var list = mountain + rivers + countries + cities + language;
+console.log(list);
