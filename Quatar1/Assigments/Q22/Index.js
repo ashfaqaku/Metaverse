@@ -1,4 +1,4 @@
 
 var Names=["Hello Eric","yousuf"];
 
-console.log(Names);
+console.log(Names[2]);
